@@ -1,0 +1,4 @@
+2021-10-06 15:06:46,342 INFO Entering Setup
+2021-10-06 15:06:52,552 INFO navigating to url
+2021-10-06 15:06:52,552 INFO Exiting setup
+2021-10-06 15:06:59,373 INFO Error Messsage Displayed

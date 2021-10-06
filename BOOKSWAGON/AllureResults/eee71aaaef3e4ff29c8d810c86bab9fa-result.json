@@ -1,0 +1,96 @@
+{
+  "uuid": "f2529b97-0341-49e7-b548-7abb0c11d585-tr-0-1004",
+  "historyId": "BOOKSWAGON.Tests.WISHLIST",
+  "fullName": "BOOKSWAGON.Tests.WISHLIST",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT043"
+    },
+    {
+      "name": "testClass",
+      "value": "BOOKSWAGON.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "WISHLIST"
+    },
+    {
+      "name": "package",
+      "value": "BOOKSWAGON.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "WISHLIST",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "WISHLIST"
+  },
+  "stage": "finished",
+  "description": "AddToWishList\n",
+  "steps": [
+    {
+      "name": "WISHLIST",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3aff590f5d6c4fe3bd3363b63481ff68-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633512696842,
+      "stop": 1633512724340
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633512696841,
+  "stop": 1633512724351
+}
