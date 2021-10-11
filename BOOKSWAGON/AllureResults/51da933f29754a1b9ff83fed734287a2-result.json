@@ -1,0 +1,67 @@
+{
+  "uuid": "34ec5e29-a5ec-482a-89b0-24d972ceed37-tr-0-1009",
+  "historyId": "BOOKSWAGON.Tests.Shipping",
+  "fullName": "BOOKSWAGON.Tests.Shipping",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT043"
+    },
+    {
+      "name": "testClass",
+      "value": "BOOKSWAGON.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Shipping"
+    },
+    {
+      "name": "package",
+      "value": "BOOKSWAGON.Tests"
+    }
+  ],
+  "links": [],
+  "name": "Shipping",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BOOKSWAGON.CustomException : Chrome session not established",
+    "trace": "   at BOOKSWAGON.Actions.ActionsDo.BuyProduct(IWebDriver driver) in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\Actions\\ActionsDo.cs:line 232\r\n   at BOOKSWAGON.Tests.Shipping() in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\BookswagonTesting.cs:line 93"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Shipping",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BOOKSWAGON.CustomException : Chrome session not established",
+        "trace": "   at BOOKSWAGON.Actions.ActionsDo.BuyProduct(IWebDriver driver) in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\Actions\\ActionsDo.cs:line 232\r\n   at BOOKSWAGON.Tests.Shipping() in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\BookswagonTesting.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "304b56d359b54397b72a01f86f8e8c08-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633585140996,
+      "stop": 1633585208845
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633585140995,
+  "stop": 1633585208853
+}

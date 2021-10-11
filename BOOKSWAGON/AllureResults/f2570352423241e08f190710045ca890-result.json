@@ -1,0 +1,64 @@
+{
+  "uuid": "e0ec6d92-18bd-416f-ab15-c7828014bc8c-tr-0-1009",
+  "historyId": "BOOKSWAGON.Tests.Shipping",
+  "fullName": "BOOKSWAGON.Tests.Shipping",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT043"
+    },
+    {
+      "name": "testClass",
+      "value": "BOOKSWAGON.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Shipping"
+    },
+    {
+      "name": "package",
+      "value": "BOOKSWAGON.Tests"
+    }
+  ],
+  "links": [],
+  "name": "Shipping",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Shipping"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Shipping",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3b0ee9ec0d8e45e09c7ccb92c3412ae3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633585760875,
+      "stop": 1633585807492
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633585760874,
+  "stop": 1633585807499
+}

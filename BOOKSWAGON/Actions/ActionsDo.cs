@@ -108,8 +108,8 @@ namespace BOOKSWAGON.Actions
                     search.SearchBar.SendKeys(Keys.Enter);
                     System.Threading.Thread.Sleep(1000);
 
-                    search.Book.Click();
-                    System.Threading.Thread.Sleep(1000);
+                    //search.Book.Click();
+                    //System.Threading.Thread.Sleep(1000);
                 }
 
             }
@@ -144,33 +144,80 @@ namespace BOOKSWAGON.Actions
 
         public static void PlaceOrder(IWebDriver driver)
         {
-            //try
-            //{
-                Order Buy = new Order(driver);
+            Actions.ActionsDo.LoginToBookswagen(driver);
+            Actions.ActionsDo.SerchingABook(driver);
 
-                Actions.ActionsDo.LoginToBookswagen(driver);
+            Order order = new Order(driver);
 
-                Actions.ActionsDo.SerchingABook(driver);
-                
-                Buy.BuyBtn.Click();
+            order.BuynowBtn.Click();
+            System.Threading.Thread.Sleep(2000);
+
+            driver.SwitchTo().Frame(0);
+
+            order.QuantityBtn.SendKeys(Keys.ArrowRight);
+            order.QuantityBtn.SendKeys(Keys.Backspace);
+            order.QuantityBtn.SendKeys("3");
+            //order.QuantityBtn.SendKeys(Keys.Enter);
+
+            order.PlaceorderBtn.Click();
+            System.Threading.Thread.Sleep(2000);
+        }
+
+        public static void BuyProduct(IWebDriver driver)
+        {
+            try
+            {
+                ExcelOperations.PopulateInCollection(@"C:\Users\lavanya.g\source\repos\BOOKSWAGON\BOOKSWAGON\TestDataFiles\BookSwagonAddresss.xlsx");
+
+                Shipping shipping = new Shipping(driver);
+
+                Actions.ActionsDo.PlaceOrder(driver);
+
+                shipping.ContinueBtn.Click();
                 System.Threading.Thread.Sleep(1000);
 
-                Buy.OrderBtn.Click();
+                shipping.RecipientName.SendKeys(ExcelOperations.ReadData(1, "Name"));
                 System.Threading.Thread.Sleep(1000);
 
-                Buy.ContinueBtn.Click();
+                shipping.CompanyName.SendKeys(ExcelOperations.ReadData(1, "CompanyName"));
                 System.Threading.Thread.Sleep(1000);
 
-                Buy.Address.Click();
+                shipping.StreetAddress.SendKeys(ExcelOperations.ReadData(1, "Address"));
                 System.Threading.Thread.Sleep(1000);
 
-                Buy.Save.Click();
+                shipping.Landmark.SendKeys(ExcelOperations.ReadData(1, "Landmark"));
                 System.Threading.Thread.Sleep(1000);
-            //}
-            //catch
-            //{
-            //    throw new CustomException(CustomException.ExceptionType.NoSuchSessionException, "Chrome session not established");
-            //}
+
+                shipping.Country.SendKeys(ExcelOperations.ReadData(1, "Country"));
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.State.SendKeys(ExcelOperations.ReadData(1, "State"));
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.City.SendKeys(ExcelOperations.ReadData(1, "City"));
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.Pincoode.SendKeys(ExcelOperations.ReadData(1, "Pincode"));
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.Mobile.SendKeys(ExcelOperations.ReadData(1, "Mobile"));
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.Checkbox.Click();
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.Save.Click();
+                System.Threading.Thread.Sleep(1000);
+
+                shipping.SaveAndContinue.Click();
+                System.Threading.Thread.Sleep(1000);
+
+            }
+            catch
+            {
+                throw new CustomException(CustomException.ExceptionType.NoSuchSessionException, "Chrome session not established");
+
+            }
         }
 
         public static void Logout(IWebDriver driver)

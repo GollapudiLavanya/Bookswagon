@@ -67,25 +67,33 @@ namespace BOOKSWAGON
         {
             Actions.ActionsDo.PlaceOrder(driver);
         }
-        
-        [Test,Order(5)]
+
+        [Test, Order(5)]
+        public void Shipping()
+        {
+            Actions.ActionsDo.BuyProduct(driver);
+        }
+
+
+        [Test,Order(6)]
         public void LogoutOption()
         {
             Actions.ActionsDo.Logout(driver);
         }
 
-        [Test,Order(6)]
+        [Test,Order(7)]
         public void InvalidPassword()
         {
             Actions.ActionsDo.LoginWithInvalidPassword(driver);
             TakeScreenshot(driver);
         }
 
-        [Test,Order(7)]
-        public void SignupPassword()
+        [Test,Order(8)]
+        public void InvalidSignupPassword()
         {
             Actions.ActionsDo.SignUpWithInvalidPassword(driver);
         }
 
+        
     }
 }

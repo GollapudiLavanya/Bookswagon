@@ -1,0 +1,4 @@
+2021-10-06 17:49:05,601 INFO Entering Setup
+2021-10-06 17:49:13,065 INFO navigating to url
+2021-10-06 17:49:13,066 INFO Exiting setup
+2021-10-06 17:49:20,302 INFO Loggin Succesfull

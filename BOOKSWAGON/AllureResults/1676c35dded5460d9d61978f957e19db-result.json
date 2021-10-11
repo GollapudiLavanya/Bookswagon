@@ -1,0 +1,67 @@
+{
+  "uuid": "957635d4-898e-432e-a9aa-3ea36e355336-tr-0-1005",
+  "historyId": "BOOKSWAGON.Tests.PlacingOrder",
+  "fullName": "BOOKSWAGON.Tests.PlacingOrder",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT043"
+    },
+    {
+      "name": "testClass",
+      "value": "BOOKSWAGON.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlacingOrder"
+    },
+    {
+      "name": "package",
+      "value": "BOOKSWAGON.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlacingOrder",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetException : Non-static method requires a target.",
+    "trace": "   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BOOKSWAGON.Actions.ActionsDo.PlaceOrder(IWebDriver driver) in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\Actions\\ActionsDo.cs:line 162\r\n   at BOOKSWAGON.Tests.PlacingOrder() in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\BookswagonTesting.cs:line 68"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlacingOrder",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Reflection.TargetException : Non-static method requires a target.",
+        "trace": "   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BOOKSWAGON.Actions.ActionsDo.PlaceOrder(IWebDriver driver) in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\Actions\\ActionsDo.cs:line 162\r\n   at BOOKSWAGON.Tests.PlacingOrder() in C:\\Users\\lavanya.g\\source\\repos\\BOOKSWAGON\\BOOKSWAGON\\BookswagonTesting.cs:line 68"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5446f6fc463f4b42ba70554fa1292433-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633521028943,
+      "stop": 1633521080750
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633521028942,
+  "stop": 1633521080756
+}

@@ -20,26 +20,17 @@ namespace BOOKSWAGON.page
         {
             PageFactory.InitElements(driver, this);
         }
-
-        [FindsBy(How = How.XPath, Using = "//tbody/tr[1]/td[1]/div[1]/a[1]/input[1]")]
+        [FindsBy(How = How.XPath, Using = "//body[1]/form[1]/div[4]/div[2]/div[3]/div[2]/div[1]/div[4]/div[5]/a[1]/input[1]")]
         [CacheLookup]
-        public IWebElement BuyBtn;
+        public IWebElement BuynowBtn;
 
-        [FindsBy(How = How.XPath, Using = "//input[@id='BookCart_lvCart_imgPayment']")]
+        [FindsBy(How = How.XPath, Using = "/html[1]/body[1]/form[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[3]/input[1]")]
         [CacheLookup]
-        public IWebElement OrderBtn;
+        public IWebElement QuantityBtn;
 
-        [FindsBy(How = How.XPath, Using = "//a[contains(text(),'Continue')]")]
+        [FindsBy(How = How.XPath, Using = "//body[1]/form[1]/div[3]/div[2]/div[1]/div[1]/div[4]/table[1]/tbody[1]/tr[1]/td[3]/input[1]")]
         [CacheLookup]
-        public IWebElement ContinueBtn;
-
-        [FindsBy(How = How.Name, Using = "ctl00$cpBody$lvCustomerAdd$ctrl0$btnUseAddress")]
-        [CacheLookup]
-        public IWebElement Address;
-
-        [FindsBy(How = How.Name, Using = "ctl00$cpBody$ShoppingCart$lvCart$savecontinue")]
-        [CacheLookup]
-        public IWebElement Save;
+        public IWebElement PlaceorderBtn;
 
 
     }

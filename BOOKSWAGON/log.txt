@@ -229,3 +229,135 @@
 2021-10-06 15:08:06,188 INFO navigating to url
 2021-10-06 15:08:06,188 INFO Exiting setup
 2021-10-06 15:08:13,468 INFO Error Messsage Displayed
+2021-10-06 15:51:00,764 INFO Entering Setup
+2021-10-06 15:51:07,918 INFO navigating to url
+2021-10-06 15:51:07,919 INFO Exiting setup
+2021-10-06 15:51:16,528 INFO Loggin Succesfull
+2021-10-06 15:52:34,161 INFO Entering Setup
+2021-10-06 15:52:40,597 INFO navigating to url
+2021-10-06 15:52:40,598 INFO Exiting setup
+2021-10-06 15:52:47,858 INFO Loggin Succesfull
+2021-10-06 15:53:21,069 INFO Entering Setup
+2021-10-06 15:53:27,654 INFO navigating to url
+2021-10-06 15:53:27,655 INFO Exiting setup
+2021-10-06 15:53:34,451 INFO Loggin Succesfull
+2021-10-06 15:55:02,263 INFO Entering Setup
+2021-10-06 15:55:08,343 INFO navigating to url
+2021-10-06 15:55:08,344 INFO Exiting setup
+2021-10-06 15:55:15,445 INFO Loggin Succesfull
+2021-10-06 15:59:56,563 INFO Entering Setup
+2021-10-06 16:00:04,216 INFO navigating to url
+2021-10-06 16:00:04,217 INFO Exiting setup
+2021-10-06 16:00:11,458 INFO Loggin Succesfull
+2021-10-06 16:02:54,814 INFO Entering Setup
+2021-10-06 16:03:01,766 INFO navigating to url
+2021-10-06 16:03:01,766 INFO Exiting setup
+2021-10-06 16:03:08,787 INFO Loggin Succesfull
+2021-10-06 16:37:58,894 INFO Entering Setup
+2021-10-06 16:38:06,494 INFO navigating to url
+2021-10-06 16:38:06,495 INFO Exiting setup
+2021-10-06 16:38:13,794 INFO Loggin Succesfull
+2021-10-06 16:40:33,171 INFO Entering Setup
+2021-10-06 16:40:40,027 INFO navigating to url
+2021-10-06 16:40:40,029 INFO Exiting setup
+2021-10-06 16:40:47,545 INFO Loggin Succesfull
+2021-10-06 16:42:35,024 INFO Entering Setup
+2021-10-06 16:42:41,874 INFO navigating to url
+2021-10-06 16:42:41,875 INFO Exiting setup
+2021-10-06 16:42:49,058 INFO Loggin Succesfull
+2021-10-06 16:44:57,747 INFO Entering Setup
+2021-10-06 16:45:04,713 INFO navigating to url
+2021-10-06 16:45:04,713 INFO Exiting setup
+2021-10-06 16:45:11,791 INFO Loggin Succesfull
+2021-10-06 16:46:32,960 INFO Entering Setup
+2021-10-06 16:46:39,947 INFO navigating to url
+2021-10-06 16:46:39,947 INFO Exiting setup
+2021-10-06 16:46:47,366 INFO Loggin Succesfull
+2021-10-06 16:48:59,601 INFO Entering Setup
+2021-10-06 16:49:06,477 INFO navigating to url
+2021-10-06 16:49:06,478 INFO Exiting setup
+2021-10-06 16:49:13,575 INFO Loggin Succesfull
+2021-10-06 16:55:06,612 INFO Entering Setup
+2021-10-06 16:55:13,458 INFO navigating to url
+2021-10-06 16:55:13,458 INFO Exiting setup
+2021-10-06 16:55:21,047 INFO Loggin Succesfull
+2021-10-06 16:58:13,251 INFO Entering Setup
+2021-10-06 16:58:20,170 INFO navigating to url
+2021-10-06 16:58:20,171 INFO Exiting setup
+2021-10-06 16:58:27,772 INFO Loggin Succesfull
+2021-10-06 17:01:29,559 INFO Entering Setup
+2021-10-06 17:01:36,155 INFO navigating to url
+2021-10-06 17:01:36,156 INFO Exiting setup
+2021-10-06 17:01:43,380 INFO Loggin Succesfull
+2021-10-06 17:15:00,308 INFO Entering Setup
+2021-10-06 17:15:07,233 INFO navigating to url
+2021-10-06 17:15:07,233 INFO Exiting setup
+2021-10-06 17:15:14,706 INFO Loggin Succesfull
+2021-10-06 17:18:48,041 INFO Entering Setup
+2021-10-06 17:18:55,339 INFO navigating to url
+2021-10-06 17:18:55,339 INFO Exiting setup
+2021-10-06 17:19:02,814 INFO Loggin Succesfull
+2021-10-06 17:20:29,147 INFO Entering Setup
+2021-10-06 17:20:36,219 INFO navigating to url
+2021-10-06 17:20:36,220 INFO Exiting setup
+2021-10-06 17:20:44,021 INFO Loggin Succesfull
+2021-10-06 17:29:41,563 INFO Entering Setup
+2021-10-06 17:29:49,752 INFO navigating to url
+2021-10-06 17:29:49,752 INFO Exiting setup
+2021-10-06 17:29:58,595 INFO Loggin Succesfull
+2021-10-06 17:35:20,436 INFO Entering Setup
+2021-10-06 17:35:29,690 INFO navigating to url
+2021-10-06 17:35:29,691 INFO Exiting setup
+2021-10-06 17:35:40,064 INFO Loggin Succesfull
+2021-10-06 17:46:34,659 INFO Entering Setup
+2021-10-06 17:46:42,229 INFO navigating to url
+2021-10-06 17:46:42,229 INFO Exiting setup
+2021-10-06 17:46:49,908 INFO Loggin Succesfull
+2021-10-06 17:49:05,601 INFO Entering Setup
+2021-10-06 17:49:13,065 INFO navigating to url
+2021-10-06 17:49:13,066 INFO Exiting setup
+2021-10-06 17:49:20,302 INFO Loggin Succesfull
+2021-10-06 17:50:09,824 INFO Entering Setup
+2021-10-06 17:50:17,447 INFO navigating to url
+2021-10-06 17:50:17,448 INFO Exiting setup
+2021-10-06 17:50:25,546 INFO Loggin Succesfull
+2021-10-07 11:09:01,400 INFO Entering Setup
+2021-10-07 11:09:08,836 INFO navigating to url
+2021-10-07 11:09:08,837 INFO Exiting setup
+2021-10-07 11:09:16,662 INFO Loggin Succesfull
+2021-10-07 11:13:44,811 INFO Entering Setup
+2021-10-07 11:13:51,397 INFO navigating to url
+2021-10-07 11:13:51,398 INFO Exiting setup
+2021-10-07 11:13:58,283 INFO Loggin Succesfull
+2021-10-07 11:19:21,063 INFO Entering Setup
+2021-10-07 11:19:27,310 INFO navigating to url
+2021-10-07 11:19:27,310 INFO Exiting setup
+2021-10-07 11:19:34,199 INFO Loggin Succesfull
+2021-10-07 11:25:40,017 INFO Entering Setup
+2021-10-07 11:25:46,112 INFO navigating to url
+2021-10-07 11:25:46,113 INFO Exiting setup
+2021-10-07 11:25:53,176 INFO Loggin Succesfull
+2021-10-07 16:08:25,899 INFO Entering Setup
+2021-10-07 16:08:33,091 INFO navigating to url
+2021-10-07 16:08:33,092 INFO Exiting setup
+2021-10-07 16:08:41,279 INFO Loggin Succesfull
+2021-10-07 16:09:25,837 INFO Entering Setup
+2021-10-07 16:09:33,635 INFO navigating to url
+2021-10-07 16:09:33,635 INFO Exiting setup
+2021-10-07 16:09:40,928 INFO Loggin Succesfull
+2021-10-07 16:10:22,624 INFO Entering Setup
+2021-10-07 16:10:29,999 INFO navigating to url
+2021-10-07 16:10:29,999 INFO Exiting setup
+2021-10-07 16:10:37,731 INFO Loggin Succesfull
+2021-10-07 16:12:11,052 INFO Entering Setup
+2021-10-07 16:12:18,815 INFO navigating to url
+2021-10-07 16:12:18,815 INFO Exiting setup
+2021-10-07 16:12:26,281 INFO Loggin Succesfull
+2021-10-07 16:16:18,594 INFO Entering Setup
+2021-10-07 16:16:26,211 INFO navigating to url
+2021-10-07 16:16:26,211 INFO Exiting setup
+2021-10-07 16:16:34,014 INFO Loggin Succesfull
+2021-10-07 16:17:23,652 INFO Entering Setup
+2021-10-07 16:17:33,438 INFO navigating to url
+2021-10-07 16:17:33,438 INFO Exiting setup
+2021-10-07 16:17:42,661 INFO Loggin Succesfull
